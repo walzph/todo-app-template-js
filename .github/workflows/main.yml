@@ -34,5 +34,6 @@ jobs:
             password: ${{ secrets.CODESPHERE_PASSWORD }}
             team: 'Demo-CSA'
             plan: 'Boost'
+            onDemand: true
             env: |
               GITHUB_BRANCH: ${{ github.head_ref }}
