@@ -32,7 +32,7 @@ jobs:
         with:
             email: ${{ secrets.CODESPHERE_EMAIL }}
             password: ${{ secrets.CODESPHERE_PASSWORD }}
-            team: 'Demo / CSA'
+            team: 'Demo-CSA'
             plan: 'Boost'
             env: |
               GITHUB_BRANCH: ${{ github.head_ref }}
